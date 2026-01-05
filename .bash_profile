@@ -7,7 +7,3 @@
 
 # use mozilla bundled ca
 export NODE_OPTIONS=--use-bundled-ca
-
-# home bins
-export PATH="$HOME/bin/:$PATH"
-
