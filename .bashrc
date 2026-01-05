@@ -20,4 +20,4 @@ alias 'l'='ls -CF'
 alias 'cat'='bat'
 
 export EDITOR='nvim'
-
+export PATH="$HOME/bin/:$PATH"
