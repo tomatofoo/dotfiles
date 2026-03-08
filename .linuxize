@@ -16,11 +16,7 @@ for command in ${BUILTIN_SHELL_COMMANDS[@]}; do alias "$command"="g$command"; do
 alias '['=\''g['\'
 unset BUILTIN_SHELL_COMMANDS
 
-PYTHON_VERSION=$(ls $HOME/Library/Python/ | sort -V | tail -1)
-# (newest ver ^)
-export PATH="$HOME/Library/Python/${PYTHON_VERSION}/bin:$PATH"
 export CPPFLAGS="$(python-config --include) $CPPFLAGS"
-unset PYTHON_VERSION
 
 export PATH="${BREW_HOME}/opt/curl/bin:$PATH"
 export LDFLAGS="-L${BREW_HOME}/opt/curl/lib $LDFLAGS"
