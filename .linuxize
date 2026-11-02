@@ -10,7 +10,7 @@ for command in ${GNU_COMPILER_COLLECTION[@]}; do alias "$command"="$command-$GCC
 export MANPATH="${BREW_HOME}/opt/gcc@${GCC_VERSION}/share/man:$MANPATH"
 unset GNU_COMPILER_COLLECTION GCC_VERSION
 
-BUILTIN_SHELL_COMMANDS=( 'pwd' 'echo' 'kill' 'printf' 'true' 'false' )
+BUILTIN_SHELL_COMMANDS=( 'pwd' 'echo' 'printf' 'true' 'false' )
 # maybe add 'time' ^
 for command in ${BUILTIN_SHELL_COMMANDS[@]}; do alias "$command"="g$command"; done
 alias '['=\''g['\'
