@@ -6,7 +6,6 @@ glyph_offset = { x = 0, y = 1 }
 
 [font.normal]
 family = 'SpaceMono Nerd Font Mono'
-style = 'Bold'
 
 [window]
 decorations = 'transparent'
