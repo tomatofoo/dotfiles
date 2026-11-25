@@ -20,7 +20,6 @@ map('n', '<C-S-w>', ':lua Snacks.bufdelete.all()<CR>', { noremap = true, silent 
 map('n', '<C-z>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 map('n', '<C-r>', ':Telescope find_files<CR>', { noremap = true, silent = true })
 map('n', '<C-f>', ':Telescope live_grep<CR>', { noremap = true, silent = true })
-map('n', '<C-i>', ':PeekToggle<CR>',  {noremap = true, silent = true })
 
 map('n', '<C-Tab>', ':bn<CR>', { noremap = true, silent = true })
 map('n', '<C-S-Tab>', ':bp<CR>', { noremap = true, silent = true })
@@ -38,7 +37,6 @@ map('i', '<C-S-w>', '<esc>:lua Snacks.bufdelete.all()<CR>', { noremap = true, si
 map('i', '<C-z>', '<esc>:NvimTreeToggle<CR>', { noremap = true, silent = true })
 map('i', '<C-r>', '<esc>:Telescope find_files<CR>', { noremap = true, silent = true })
 -- map('i', '<C-f>', '<esc>:Telescope live_grep<CR>', { noremap = true, silent = true })
-map('i', '<C-i>', '<esc>:PeekToggle<CR>li', {noremap = true, silent = true })
 
 -- Emacs style keybindings
 map('i', '<C-a>', '<Home>', {noremap = true, silent = true })

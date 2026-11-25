@@ -48,12 +48,6 @@ require('lazy').setup({
    },
 
    { 
-      'toppair/peek.nvim',
-      event = 'VeryLazy',
-      build = 'deno task --quiet build:fast', 
-   },
-
-   { 
       'folke/snacks.nvim',
       lazy = false,
       priority = 1000, 
